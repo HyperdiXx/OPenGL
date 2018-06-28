@@ -1,0 +1,43 @@
+#Models: 2
+ID 0 FILE ../Resources/Models/Woman1.nfg
+ID 1 FILE ../Resources/Models/Marine.nfg
+
+#2DTextures: 2 
+ID 0 FILE ../Resources/Textures/Woman1.tga
+ID 1 FILE ../Resources/Textures/MarineText.tga
+
+#Shaders: 2
+ID 0 VS ../Resources/Shaders/TriangleShaderVS.vs FS ../Resources/Shaders/TriangleShaderFS.fs
+ID 1 VS ../Resources/Shaders/ReflectionVS.vs FS ../Resources/Shaders/ReflectionFS.fs
+
+#Terrain: 1
+ID 0 FILE ../Resources/Models/Terrain.nfg
+
+#Terrain2DTextures: 4
+ID 0 FILE ../Resources/Textures/Dirt.tga   
+ID 1 FILE ../Resources/Textures/Rock.tga
+ID 2 FILE ../Resources/Textures/Grass.tga
+ID 3 FILE ../Resources/Textures/Terrain_blend_map.tga
+
+#TerrainShaders: 1
+ID 0 VS ../Resources/Shaders/TerrainShaderVS.vs FS ../Resources/Shaders/TerrainShaderFS.fs
+
+#Skybox: 1
+ID 0 FILE ../Resources/Models/Cube.nfg
+
+#CubeMap: 1
+ID 0 FILE ../Resources/Textures/envMap.tga
+
+#CubeMapShaders: 1
+ID 0 VS ../Resources/Shaders/SkyboxVS.vs FS ../Resources/Shaders/SkyboxFS.fs
+
+#Fire: 1
+ID 0 FILE ../Resources/Models/fire.nfg
+
+#FireTextures: 3
+ID 0 FILE ../Resources/Textures/fire3.tga GL_CLAMP_TO_EDGE
+ID 1 FILE ../Resources/Textures/fire_mask.tga GL_CLAMP_TO_EDGE
+ID 2 FILE ../Resources/Textures/DisplacementMap.tga GL_REPEAT
+
+#FireShaders: 1
+ID 0 VS ../Resources/Shaders/FireVS.vs FS ../Resources/Shaders/FireFS.fs
